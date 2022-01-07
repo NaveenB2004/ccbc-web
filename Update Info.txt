@@ -1,0 +1,12 @@
+2022.01.07 - Edited SDS.html (School Development Society)
+	:: Main Editor - Malith Maths (cartoon pissa)
+	Pages\SDS.html [from: Malith]
+	Pages\Name Card.txt
+	Pages\SDS top img.jpg
+	Pages\temp user pic.jpg [from: Malith]
+	// Made new comments for future editings.
+	// Upgraded to Bootstrap 5 (work with cdn - online <CSS and JS bundles>).
+	// Edited name cards made by Malith.
+	// Maintained site for responsive.
+	// Modified (new added) links to footer (school address-google map location, school phone-internet call option).
+	// Updated copyrights to 2022.
