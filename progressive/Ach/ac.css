@@ -1,0 +1,209 @@
+*{margin: 0;padding: 0;}
+body 
+
+
+#container
+{
+height: 600px;
+width: 100%;
+background-color: #262626;
+overflow: auto;
+position: relative;
+overflow-x: scroll;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#thumbs
+{
+background-color: #262626;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: auto;
+overflow: hidden;
+white-space: nowrap;
+padding: 30px 100px;
+}
+
+.history-block {
+  height: 100%;
+  width: 300px;
+  background-color: #262626;
+  margin: 0 -2px;
+  border-right: 1px solid #fff;
+  display: inline-block;
+  font-family: 'roboto condensed', sans-serif;
+  font-size:60px;
+  font-weight: 100;
+  color: #FFF;
+  cursor: pointer;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.8);
+  transition: width 0.2s;
+}
+
+.history-block:last-of-type {
+  border-right: none;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  transition: background .5s;
+  background: #111111;
+}
+
+.cover:hover {
+  width: 100%;
+  height: 100%;
+  transition: background .5s;
+  background: rgba(0,0,0,0.8);
+}
+
+.event {
+  position: absolute;
+    top: 0px;
+    font-size: 30px;
+  font-weight:500;
+    margin: 40px 30px;
+}
+
+.title {
+  position: absolute;
+  display: block;
+  width: 260px;
+    top: 60px;
+    font-size: 15px;
+    margin: 30px;
+  white-space: normal;
+  transition: width 0.2s;
+}
+
+.timeline {
+  display:none;
+  position: absolute;
+  bottom: 80px;
+    font-size: 20px;
+    margin: 20px;
+  transition: display 0.8s;
+}
+
+.timeline ul {
+  margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+.timeline ul li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0px 5px;
+}
+
+.timeline ul li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0px 5px;
+}
+
+.timeline ul li:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(255,255,255,0.5);
+  content: '\f10c';
+  position: absolute;
+  top: 30px;
+  margin-left:10px;
+  transition: all 0.5s;
+}
+
+.timeline ul li:after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  margin-left:-10px;
+  width: 36px;
+  height:2px;
+  border: 1px solid rgba(255,255,255,0.5);
+  transition: all 0.5s;
+}
+
+.timelineYear, .timelineYear:hover {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.8s;
+}
+
+.timeline ul li:hover:before {
+  content: '\f111';
+  color: #ffffff;
+  font-size: 18px;
+  transition: all 0.5s;
+  top: 29px;
+  margin-left:9px
+}
+
+.timeline ul li:hover:after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  margin-left:-10px;
+  width: 36px;
+  height:2px;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.timeline ul li:hover .timelineYear {
+  position: static;
+  top:-10px;
+}
+
+.bg-66 {
+  background: url(Kabbadi.png);
+  background-size:cover;
+}
+
+.bg-76 {
+  background: url(cricket.jpg);
+  background-size:cover;
+}
+
+.bg-86 {
+  background: url(Chess.jpg);
+  background-size:cover;
+}
+
+.bg-96 {
+  background: url(karate.jpg);
+  background-size:cover;
+}
+
+.bg-06 {
+  background-image: url("athletic.jpg");
+  background-size: cover;    
+}
+
+.bg-16 {
+  background: url(other.jpg);
+  background-size:cover;
+}
+
+.table-color{
+    color: aliceblue;
+    text-decoration-color: aliceblue;
+}
+
+.table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: rbga(0, 0, 0, 0.8);
+  
+}
