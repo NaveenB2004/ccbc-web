@@ -165,32 +165,33 @@ text-align: center;
 }
 
 .bg-66 {
-  background: url(Kabbadi.png);
-  background-size:cover;
+  background: url(CSSimgs/Kabbadi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-76 {
-  background: url(cricket.jpg);
+  background: url(CSSimgs/Cricket.jpg);
   background-size:cover;
 }
 
 .bg-86 {
-  background: url(Chess.jpg);
+  background: url(CSSimgs/Chess.jpg);
   background-size:cover;
 }
 
 .bg-96 {
-  background: url(karate.jpg);
+  background: url(CSSimgs/Karate.jpg);
   background-size:cover;
 }
 
 .bg-06 {
-  background-image: url("athletic.jpg");
+  background-image: url(CSSimgs/Athletic.jpg);
   background-size: cover;    
 }
 
 .bg-16 {
-  background: url(other.jpg);
+  background: url(CSSimgs/Other.jpg);
   background-size:cover;
 }
 

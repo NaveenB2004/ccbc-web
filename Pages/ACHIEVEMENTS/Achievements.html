@@ -24,7 +24,6 @@
 <link rel="stylesheet" href="https://ccbc.lk/css/style.css">
 <link rel="stylesheet" href="https://ccbc.lk/css/custom.css">
 <link rel="stylesheet" href="https://ccbc.lk/css/responsive.css">
-<link rel="stylesheet" href="ac.css">
 
  <!-- some scripts !? idk -->   
 <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -35,7 +34,7 @@
 <script src="https://ccbc.lk/js/script.js"></script>
 
 <!-- External CSS file -->
-<link rel="stylesheet" href="ExternalCSS\history-style.css">
+<link rel="stylesheet" href="ExternalCSS\Achievements.css">
 
 </head>
 <!-- End Head -->
@@ -101,14 +100,14 @@
 
 <!-- Start Page Title -->
 <div class="top-image">
-    <img src="Media\History top img.jpg" width="1280" height="200" alt="School History">
+    <img src="Media\Achievements top img.jpg" width="1280" height="200" alt="School History">
 </div>
 <section id="overviews" class="section wb bg-gray bg-paper">
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
                 <div class="message-box">
-                    <h2>Our Achivements</h2>
+                    <h2>Sports Achievements</h2>
                 </div>
             </div>
         </div>
@@ -116,22 +115,8 @@
 </section>
 <!-- End Page Title -->
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-     
-        
+<!-- Start background editings -->
+<!-- start moving menu -->      
 <div id="container">
     <div id="thumbs">
 
@@ -184,37 +169,33 @@
      
     </div>
 </div>
-  
- 
-        
 
-         <script src ="ac.js"> </script>
-        <script>
-            $(".wrapper  .single-items> span").on("mouseenter mouseleave", function(e){
-                                                  $(".wrapper . single-item.active").remove("active");
-                                                  $(this).parent().addclass("active")
-                                                  });
-        </script>
-        
-        
-        
-        
+    <script src ="ExternalJS\Achievements.js"> </script>
+    <script>
+        $(".wrapper  .single-items> span").on("mouseenter mouseleave", function(e){
+        $(".wrapper . single-item.active").remove("active");
+        $(this).parent().addclass("active")
+        });
+    </script>
+<!-- end moving menu -->
+
 <!-- tables start -->
 <br>
 <br>
-     
+<br>
+<div class="container"> 
 <div class="col-12">
 <!-- kabaddi -->
 <h4 class="text-center text-light">Kabaddi</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center ">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
-     <tr>
+    <tr>
         <td class="text-center" id="k19">2019</td>
         <td class="text-center">Under 20 Southern Pro. Kabaddi</td>
         <td class="p-3">● Ruwindra Wijayawikrama Gunwardane<br>
@@ -327,15 +308,15 @@
 <h4 class="text-center text-light">Chess</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
     <tr>
         <td class="text-center" id="ch17">2017</td>
-        <td class="text-center">Galle District Chess Tournament (under-9 single) </td>
+        <td class="text-center">Galle District Chess Tournament (under 9 - single) </td>
         <td class="p-3">● Thinura Bandara<br>
                         ● Chanuth Uthsara<br>
                         ● Lakira Ometh</td>
@@ -346,7 +327,7 @@
     </tr>
     <tr>
         <td class="text-center" rowspan="2" id="ch16">2016</td>
-        <td class="text-center">All Island School Chess Tournament Org. By Peradeniya Campus (under 9 boys)</td>
+        <td class="text-center">All Island School Chess Tournament Org. By Peradeniya Campus (under 9 - boys)</td>
         <td class="p-3">● Thenuka Nethwin<br>
                         ● Thinura Bandara<br>
                         ● Chanuth Uthsara<br>
@@ -364,14 +345,14 @@
         <td class="text-center">January</td>
     </tr>
     <tr>
-        <td class="text-center">All Island School Chess Tournament Org. By Peradeniya Campus (under 9 boys)</td>
+        <td class="text-center">All Island School Chess Tournament Org. By Peradeniya Campus (under 9 - boys)</td>
         <td class="p-3">● Thenuka Nethwin</td>
         <td class="text-center">Best 6 Board Award</td>
         <td class="text-center">January</td>
     </tr>
     <tr>
         <td class="text-center" id="ch15">2015</td>
-        <td class="text-center">National youth Chess Championship-Galle District (under 8 boys)</td>
+        <td class="text-center">National youth Chess Championship-Galle District (under 8 - boys)</td>
         <td class="p-3">● Sonal Anjana Nanayakkara</td>
         <td class="text-center">Champion</td>
         <td class="text-center">January</td>
@@ -393,11 +374,11 @@
 <h4 class="text-center text-light">Karate</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
     <tr>
         <td class="text-center" id="ka17">2017</td>
@@ -492,11 +473,11 @@
 <h4 class="text-center text-light">Cricket</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center ">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
     <tr>
         <td class="text-center" rowspan="2" id="c20">2020</td>
@@ -519,11 +500,11 @@
 <h4 class="text-center text-light">Athletic</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center ">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
     <tr>
         <td class="text-center" rowspan="3" id="a17">2017</td>
@@ -639,11 +620,11 @@
 <h4 class="text-center text-light">Vollyball</h4>
 <table style="width:100%" class="text-white">
     <tr class="text-center ">
-        <th>Year</th>
-        <th>Event</th>
-        <th>Player(s)</th>
-        <th>Place</th>
-        <th>Techer in Charge</th>
+        <th class="p-2">Year</th>
+        <th class="p-2">Event</th>
+        <th class="p-2">Player(s)</th>
+        <th class="p-2">Place</th>
+        <th class="p-2">Techer in Charge</th>
     </tr>
      <tr>
         <td class="text-center" rowspan="2" id="v20">2020</td>
@@ -680,7 +661,8 @@
 </div>        
         
         
-        
+</div>
+<!-- End Body Editings -->
 </div>
 <!-- End Background Color --> 
 

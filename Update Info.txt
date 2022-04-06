@@ -11,9 +11,24 @@
 	// Modified (new added) links to footer (school address-google map location, school phone-internet call option).
 	// Updated copyrights to 2022.
 
-2022.01.09 - Edited HISTORY.html
+2022.01.09 - Edited HISTORY.html (School History)
 	:: Main Editor - Lahiru Maths (baatee)
 	Pages\HISTORY\HISTORY.html
 	Pages\HISTORY\ExternalCSS\history-style.css
 	Pages\HISTORY\Media\History top img.jpg
 	// Made new comments for future editings.
+
+2022.04.06 - Edited ACHIEVEMENTS.html (Sports Achievements)
+	:: Main Editor - Lahiru Maths (baatee)
+	Pages\ACHIEVEMENTS\ACHIEVEMENTS.html
+	Pages\ACHIEVEMENTS\ExternalCSS\Achievements.css
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Athletic.jpg
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Chess.jpg
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Cricket.jpg
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Kabbadi.png
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Karate.jpg
+	Pages\ACHIEVEMENTS\ExternalCSS\CSSimgs\Other.jpg
+	Pages\ACHIEVEMENTS\ExternalJS\Achievements.js
+	Pages\ACHIEVEMENTS\Media\Achievements top img.jpg
+	// Made new comments for future editings.
+	// Change some codes.
